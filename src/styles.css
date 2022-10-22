@@ -195,6 +195,12 @@ p {
   margin: 0;
 }
 
+.mail,
+.book,
+.gram {
+  line-height: 15px;
+}
+
 footer {
   margin: 60px 0;
 }
