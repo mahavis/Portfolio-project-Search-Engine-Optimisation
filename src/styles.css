@@ -112,7 +112,7 @@ p {
 
 @media (max-width: 900px) {
   h1 {
-    font-size: 44px;
+    font-size: 35px;
     line-height: 1.2;
   }
 
@@ -132,6 +132,18 @@ p {
   .heroine {
     text-align: center;
     padding: 0;
+  }
+
+  .list {
+    font-size: 5px;
+  }
+
+  .para {
+    font-size: 10px;
+  }
+
+  .source {
+    font-size: 5px;
   }
 
   .project-description {
@@ -193,12 +205,6 @@ p {
 .work p {
   font-size: 14px;
   margin: 0;
-}
-
-.mail,
-.book,
-.gram {
-  line-height: 15px;
 }
 
 footer {

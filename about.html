@@ -44,22 +44,24 @@
           <img
             src="images/logo-small.png"
             alt="Mahalakshmi Logo"
-            class="logo d-block d-md-none"
+            class="logo d-lg-none d-xs-none d-md-none"
           />
         </a>
         <ul>
-          <li>
-            <a href="/" title="Homepage">Home</a>
-          </li>
-          <li class="active">
-            <a href="/about.html" title="About Mahalakshmi">About</a>
-          </li>
-          <li>
-            <a href="/work.html" title="Projects by Mahalakshmi">Work</a>
-          </li>
-          <li>
-            <a href="/contact.html" title="Mahalakshmi's contact">Contact</a>
-          </li>
+          <div class="list">
+            <li>
+              <a href="/" title="Homepage">Home</a>
+            </li>
+            <li class="active">
+              <a href="/about.html" title="About Mahalakshmi">About</a>
+            </li>
+            <li>
+              <a href="/work.html" title="Projects by Mahalakshmi">Work</a>
+            </li>
+            <li>
+              <a href="/contact.html" title="Mahalakshmi's contact">Contact</a>
+            </li>
+          </div>
         </ul>
       </nav>
     </div>
@@ -69,13 +71,14 @@
           <div class="heroine-content">
             <h1 class="p-4">👋 Hi I am Mahalakshmi Viswanath</h1>
             <h2 class="mb-4">Frontend Developer, based in The Netherlands</h2>
-            <p class="mb-5">
-              For anyone who wants to start learning code, this workshop is very
-              interesting. You will be challenged with different exercises, and
-              everything is well explained, homework and deadlines are good for
-              keep focus
-            </p>
-
+            <div class="para">
+              <p class="mb-5">
+                For anyone who wants to start learning code, this workshop is
+                very interesting. You will be challenged with different
+                exercises, and everything is well explained, homework and
+                deadlines are good for keep focus
+              </p>
+            </div>
             <a
               href="/work.html"
               class="btn btn-branding"
@@ -85,7 +88,7 @@
           </div>
         </div>
         <div class="col-lg-6 text-center">
-          <div class="my-image">
+          <div class="my-image d-none d-md-block">
             <img
               src="images/Maha.jpg"
               alt="Image of developer Mahalakshmi"
@@ -138,7 +141,7 @@
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>
-        <p class="text-center mt-5">
+        <p class="source text-center mt-5">
           This project was coded by Mahalakshmi and it is
           <a
             href="https://github.com/mahavis/Portfolio-project-Search-Engine-Optimisation"
